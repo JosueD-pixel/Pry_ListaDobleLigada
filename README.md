@@ -30,14 +30,6 @@ El proyecto esta hecho en Java con NetBeans.
 - toStringReversa(): muestra la lista de la cola a la cabeza, para revisar que
   los enlaces hacia atras esten bien.
 
-Tambien se corrigieron buscar() y eliminarAlinicio(), que no revisaban el ultimo
-nodo y no actualizaban el tamanio ni la cola.
-
-## Notas
-
-- Las posiciones empiezan en 1, igual que en la ListaLigada de clase.
-- insertarEnPosicion acepta tamanio + 1 para poder insertar al final.
-- Si la posicion no es valida, el menu muestra "Posicion no valida".
 
 ## Como ejecutarlo
 
